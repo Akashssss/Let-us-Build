@@ -15,6 +15,7 @@ import Pricing from "./components/pricing/Pricing";
 import Contact from "./components/contact/Contact";
 import Regist from "./components/akash/Regist";
 import PropertyList from "./components/propertyList/PropertyList";
+import Cnectwthlbr from "./components/conwthlabr/Cnectwthlbr";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         {/* <Route exact path="/All-rounder" element={<PropertyList/>}/> */}
         <Route exact path="/About-us" element={<About/>}/>
         <Route exact path="/services" element={<Services/>}/>
+        <Route exact path="/employee-page" element={<Cnectwthlbr/>}/>
         <Route exact path="/register-as-employee" element={<Regist/>}/>
         <Route exact path="/Pricing" element={<Pricing/>}/>
         <Route exact path="/contact" element={<Contact/>}/>

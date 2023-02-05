@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import './regist.css'
+import {Link} from 'react-router-dom';
 function Regist() {
   return (
     
@@ -55,7 +56,7 @@ function Regist() {
                             <textarea spellCheck="false" name="message" id="" placeholder="Write your message"></textarea>
                         </div>
                     </div>
-                    <input type="submit" value="Send Message" class="submit-button"/>
+                    <Link to="/employee-page"><input type="submit" value="Submit" class="submit-button"/></Link>
                 </form>
             </div>
         </div>
